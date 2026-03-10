@@ -1,0 +1,1956 @@
+! ============================================
+! Зведений файл блоклістів у форматі Adblock Plus
+! Сформовано: 2026-03-11
+! Джерела:
+!   - Ukrainian Filters (Combined List)
+!   - Ukrainian Security Filter (hosts-based) (конвертовано)
+!   - AdAway default blocklist (конвертовано)
+!   - d3Host List by d3ward (конвертовано)
+! ============================================
+
+! ========== [ПОЧАТОК: Ukrainian Filters (Combined List)] ==========
+! [Adblock Plus 4.20]
+! Title: Ukrainian Filters (Combined List)
+! Description: Filter list designed to remove ads from Ukrainian websites, block trackers, harmful scripts and malicious web resources (phishing, online fraud, malware, and more)
+! Version: 26.02.2
+! Last modified: Fri, 20 February 2026 22:04 EET
+! Expires: 2 days
+! Licence: https://github.com/ukrainianfilters/lists/blob/main/LICENSE
+!
+! Homepage: https://github.com/ukrainianfilters/lists
+! Issues: https://github.com/ukrainianfilters/lists/issues
+!
+!
+! -------------------------------------------------------------------------------------------------
+! >>>>>  AD FILTERS  >>> https://raw.githubusercontent.com/ukrainianfilters/lists/main/ads/ads.txt
+! -------------------------------------------------------------------------------------------------
+!
+! !!!!!!!!!!!!!!!
+! ADVERTISING NETWORKS
+! !!!!!!!!!!!!!!!
+!
+||21wiz.com^
+||a4.censor.net^
+||ad.luxnet.ua^
+||ad.mox.tv^
+||adpartner.pro^
+||adriver.ru^
+||ads-twitter.com^
+||ads.informator.ua^
+||ads.ligazakon.net^
+||adtelligent.com^
+||agenteimmobiliare.info^
+||aixcdn.com^
+||aj1907.online^
+||api.median-ads.com^
+||banners.doc.ua^
+||creativecdn.com^
+||eskimi.com^
+||franecki.net^
+||getter.cfd^
+||givemelink.cc^
+||lenmit.com^
+||myblogshop.top^
+||myroledance.com^
+||ogads-pa.googleapis.com^
+||optad360.io^
+||optad360.net^
+||partners-show.com^
+||protagcdn.com^
+||push-sdk.com^
+||push-sdk.net^
+||rcvlink.com^
+||rcvlinks.com^
+||srv224.com^
+||stpd.cloud^
+||trafficbass.com^
+||trafficdok.com^
+||trck.house^
+||wpadmngr.com^
+||xcartpro.com^
+! >>>
+||2xclick.ru^$third-party
+||360playvid.com^$third-party
+||360playvid.info^$third-party
+||adhigh.net^$third-party
+||admixer.net^$third-party
+||adskeeper.com^$third-party
+||adwadvert.com.ua^$third-party
+||bidder.smartytouch.co^$third-party
+||bodis.com^$third-party
+||c.hit.ua^$third-party
+||c8.net.ua^$third-party
+||cdn.umh.ua^$third-party
+||cdnkma.biz^$third-party
+||clickua200.pp.ua^$third-party
+||crashlytics.ru^$third-party
+||exchange.informer.ua^$third-party
+||fundingchoicesmessages.google.com^$third-party,domain=ukranews.com
+||go2net.com.ua^$third-party
+||holder.com.ua^$third-party
+||hotbsukavu.today^$third-party
+||infocode.tech^$third-party
+||informer.link^$third-party
+||ipvertnet.com^$third-party
+||jsc.idealmedia.io^$third-party
+||kl89regular.com^$third-party
+||kma.biz^$third-party
+||mediabrama.com^$third-party
+||membrana.media^$third-party
+||mgid.com^$third-party
+||misto.travel/templates/js$third-party
+||mixadvert.com^$third-party
+||nadavi.com.ua^$third-party
+||newscode.online^$third-party
+||notsy.io^$third-party
+||phoenix-widget.com^$third-party
+||pixel.tvstitch.com^$third-party
+||receivedachest.com^$third-party
+||recreativ.com^$third-party
+||recreativ.ru^$third-party
+||redtram.com^$third-party
+||revive-adserver.net^$third-party
+||smi.pp.ua^$third-party
+||stat.hdvbua.pro^$third-party
+||stteeruptowind.com^$third-party
+||topadsua.xyz^$third-party
+||traffim.com^$third-party
+||traffsender.com^$third-party
+||trafmag.com^$third-party
+||viads.com^$third-party
+||viads.net^$third-party
+||vidoomy.com^$third-party
+||vidverto.io^$third-party
+||worldwidegg.com^$document,third-party
+! >>>
+||content-loader.com^$document,popup
+||css-load.com^$document,popup
+||html-load.com^$document,popup
+||html-load.com^$font,ping
+||img-load.com^$document,popup
+!
+!
+! !!!!!!!!!!!!!!!
+! SCRIPTS
+! !!!!!!!!!!!!!!!
+!
+/adriver_$script
+/adriver.$script
+/asyncjs.php$script
+/plugins/adrotate-pro/*$script
+/plugins/adrotate/*$script
+/prebid2.$script
+/prebidlink/*$script
+! >>>
+! zfctrack.net / znctrack.net
+bigmir.net,businessua.com,censor.net,dengi.ua,epravda.com.ua,f1analytic.com,football24.ua,footballgazeta.com,football-ukraine.com,gazeta.ua,glianec.com,gorod.dp.ua,i.ua,inforesist.org,isport.ua,ivona.ua,liga.net,meteofor.com.ua,pravda.com.ua,real-vin.com,sportanalytic.com,tochka.net,tv.ua,ukr.net,viva.ua##+js(remove-node-text, script, 0x0)
+! >>>
+beauty.ua,internetua.com,okino.ua,sinoptik.ua##+js(remove-node-text, script, "Shadow, stay, 1)
+! >>>
+! html-load.com / content-loader.com
+eurointegration.com.ua,pravda.com.ua##script[onerror*="html-load.com"]:watch-attr(onerror):remove-attr(onerror)
+eurointegration.com.ua,pravda.com.ua##^script[onload*="html-load.com"]
+! >>>
+agronews.ua,agroreview.com##+js(remove-node-text, script, adId)
+eurointegration.com.ua##+js(remove-node-text, script, moveTopBanner)
+glianec.com##+js(remove-node-text, script, location.reload)
+newsyou.info##+js(remove-node-text, script, "/loader.min.js, stay, 1)
+newsyou.info##+js(remove-node-text, script, ads.offsetHeight)
+proagro.com.ua##+js(remove-node-text, script, wpsite_clickable_data)
+rup.com.ua##+js(remove-node-text, script, bdca)
+zaxid.net##+js(remove-node-text, script, mobileBrandingMainInited)
+!
+!
+! !!!!!!!!!!!!!!!
+! GENERAL RULES
+! !!!!!!!!!!!!!!!
+!
+||click.zfctrack.net^
+||click.znctrack.net^
+! >>>
+||google.com/adsense/search/ads.js
+||google.com/adsense/search/async-ads.js
+! >>>
+/mod_ijoomla_adagency_zone/*$~xmlhttprequest
+/www/delivery/*$script,subdocument
+! >>>
+###ad_top
+###ad_Top
+###AD_Top
+###ad-300
+###ad-lead
+###ad-slot
+###homead
+###homeAd
+###td-ad-placeholder
+! >>>
+##.ad-300
+##.ads-content
+##.ads-header
+##.ads300
+##.advert-container
+##.advert-text
+##.advtext
+##.advText
+##.adx_center
+##.bannerAds
+##.bannerAside
+##.headad
+##.headAd
+##.header-adv
+##.newspack_global_ad
+##.nts-ad
+##.nts-video-wrapper
+##.penci-ad_box
+##.penci-ad-box
+##.penci-google-adsense
+##.penci-promo-link
+##.side_ad
+##.site-header__ads
+##.td-a-ad
+##.td-a-rec-id-custom_ad_1
+##.td-a-rec-id-custom_ad_2
+##.td-a-rec-id-custom_ad_3
+##.td-a-rec-id-custom_ad_4
+##.td-a-rec-id-custom_ad_5
+##.td-ad-m
+##.td-ad-p
+##.td-ad-tp
+##.td-adspot-title
+! >>>
+##[data-revive-zoneid]
+##div[id*="MarketGid"]
+##div[id*="ScriptRoot"]
+##ins.adsbygoogle[data-ad-client]
+##ins.adsbygoogle[data-ad-slot]
+!
+!
+! !!!!!!!!!!!!!!!
+! PAGE-SPECIFIC RULES
+! !!!!!!!!!!!!!!!
+!
+||1plus1.ua/widgets/idealmedia.html
+||1plus1.video/static/js/api.gpt.js
+||1plus1.video/ua/ab/?whole
+||5.ua/js/banner
+||banner.volynnews.com
+||cdn.hdvbua.pro/amedia/
+||ek.ua/gb.php
+||ek.ua/pst.php
+||gecid.com/data/adbn/
+||gecid.com/inc/getBanIf.php
+||gepur.com/js/rtbhouse.js
+||helsi.me/api/ad/pis/
+||html-load.com/loader.min.js^$domain=newsyou.info
+||informator.ua/js/frontend/ad-loaders
+||mazepa.to/styles/js/ed
+||medicina.ua/adv.php
+||medicina.ua/adv/async.php
+||momondo.ua/ugtm/
+||nauka.ua/banner/
+||obyava.ua/js/advert.js
+||patient-docs.com/theme/js/ads.js
+||safeview.ukr.net/frame/desktop-top-banner.html$subdocument
+||slk.kh.ua/banners/redirect?id=$document
+||tereveni.org/mobiquo/smartbanner/
+||tsn.ua/static/pub/js/advertize.js
+||tsn.ua/static/pub/js/membrana-video.js
+||ukranews.com/banners.json
+||widgets.coingecko.com/coingecko-coin-list-widget.js^$domain=psm7.com
+! >>>
+||bbc.com/ukrainian/$removeparam=xtor
+||kinoafisha.ua^$removeparam=utm_campaign
+||kinoafisha.ua^$removeparam=utm_medium
+||kinoafisha.ua^$removeparam=utm_source
+||magnolia-tv.com^$removeparam=prov
+||orakul.com^$removeparam=utm_medium
+||orakul.com^$removeparam=utm_source
+! >>>
+/ads/dfp$domain=momondo.ua
+/advanced-ads-$script,stylesheet,domain=proagro.com.ua
+/assets/plugin/banners/uploads$domain=volynnews.com
+/i/ads$domain=minfin.com.ua
+/images/banners$domain=osvita.ua
+/js/1custom.js$domain=osvita.ua
+/js/banners_multi.js$domain=osvita.ua
+/js/banners-groups.js$domain=osvita.ua
+/js/firebox.js$domain=bigkyiv.com.ua
+/media/ads$image,domain=interfax.com.ua
+/plugins/advanced-ads/*$domain=proagro.com.ua
+/sajax/updatebannerstat$domain=volynnews.com
+/so-banners/ajax$domain=stroyobzor.ua
+/videojs.ads.css$stylesheet,domain=kinoafisha.ua
+=adagencyAds&task=remote_ad$domain=agro-business.com.ua
+event=open&action=firebox_trackevent&box=$domain=bigkyiv.com.ua
+! >>>
+! :has(> ins.adsbygoogle)
+1kr.ua,animal.in.ua,bibliotech.com.ua,blogchain.com.ua,cikavopro.com,daytoday.ua,defence-ua.com,dev.ua,druzy.com.ua,dynamo.kiev.ua,esc.lviv.ua,gsminfo.com.ua,gurman.co.ua,ibuhgalter.net,interes-fakti.com,itechua.com,itsider.com.ua,learn-english.net.ua,life.kyiv.ua,meteo.ua,meteopost.com,mezha.net,mind.ua,mobanking.com.ua,monobankinfo.com.ua,moyaosvita.com.ua,museumkiev.org,mykniga.com.ua,napensii.ua,nikvesti.com,one.ua,osvita.ua,pingvin.pro,pogliad.ua,predmety.in.ua,protocol.ua,psm7.com,rayon.in.ua,sat.net.ua,sensatsiya.com,sharkus.top,slovoidilo.ua,sportnews.com.ua,synonimy.info,teg.com.ua,tribun.com.ua,tsikavi-fakty.com.ua,uagolos.com,uahistory.co,uman24.org.ua,vcf.vn.ua,vidhuk.ua,vidpoviday.com,wz.lviv.ua,yak-zrobyty.in.ua##div:has(> ins.adsbygoogle)
+! :has(> div > ins.adsbygoogle)
+forex.ua,marketer.ua,uman24.org.ua##div:has(> div > ins.adsbygoogle)
+! >>>
+032.ua,44.ua,048.ua,056.ua,057.ua,061.ua,62.ua,0312.ua,0332.ua,0342.ua,0352.ua,0362.ua,0372.ua,0382.ua,0412.ua,0432.ua,0462.ua,0472.ua,0512.com.ua,0522.ua,0532.ua,0542.ua,0552.ua,0564.ua,0566.com.ua,0569.com.ua,0619.com.ua,0623.com.ua,0629.com.ua,0642.ua,0652.ua,0692.ua,3849.com.ua,04141.com.ua,04563.com.ua,4594.com.ua,04596.com.ua,04597.com.ua,04598.com.ua,04868.com.ua,05136.com.ua,05161.com.ua,05366.com.ua,05447.com.ua,5692.com.ua,06153.com.ua,06236.com.ua,06237.com.ua,06239.com.ua,06242.ua,06252.com.ua,6262.com.ua,6264.com.ua,06267.com.ua,06272.com.ua,06274.com.ua,06277.com.ua,06452.com.ua##app-ads-teaser
+032.ua,44.ua,048.ua,056.ua,057.ua,061.ua,62.ua,0312.ua,0332.ua,0342.ua,0352.ua,0362.ua,0372.ua,0382.ua,0412.ua,0432.ua,0462.ua,0472.ua,0512.com.ua,0522.ua,0532.ua,0542.ua,0552.ua,0564.ua,0566.com.ua,0569.com.ua,0619.com.ua,0623.com.ua,0629.com.ua,0642.ua,0652.ua,0692.ua,3849.com.ua,04141.com.ua,04563.com.ua,4594.com.ua,04596.com.ua,04597.com.ua,04598.com.ua,04868.com.ua,05136.com.ua,05161.com.ua,05366.com.ua,05447.com.ua,5692.com.ua,06153.com.ua,06236.com.ua,06237.com.ua,06239.com.ua,06242.ua,06252.com.ua,6262.com.ua,6264.com.ua,06267.com.ua,06272.com.ua,06274.com.ua,06277.com.ua,06452.com.ua##app-block-widget-banner
+032.ua,44.ua,048.ua,056.ua,057.ua,061.ua,62.ua,0312.ua,0332.ua,0342.ua,0352.ua,0362.ua,0372.ua,0382.ua,0412.ua,0432.ua,0462.ua,0472.ua,0512.com.ua,0522.ua,0532.ua,0542.ua,0552.ua,0564.ua,0566.com.ua,0569.com.ua,0619.com.ua,0623.com.ua,0629.com.ua,0642.ua,0652.ua,0692.ua,3849.com.ua,04141.com.ua,04563.com.ua,4594.com.ua,04596.com.ua,04597.com.ua,04598.com.ua,04868.com.ua,05136.com.ua,05161.com.ua,05366.com.ua,05447.com.ua,5692.com.ua,06153.com.ua,06236.com.ua,06237.com.ua,06239.com.ua,06242.ua,06252.com.ua,6262.com.ua,6264.com.ua,06267.com.ua,06272.com.ua,06274.com.ua,06277.com.ua,06452.com.ua##app-shared-top-companies
+032.ua,44.ua,048.ua,056.ua,057.ua,061.ua,62.ua,0312.ua,0332.ua,0342.ua,0352.ua,0362.ua,0372.ua,0382.ua,0412.ua,0432.ua,0462.ua,0472.ua,0512.com.ua,0522.ua,0532.ua,0542.ua,0552.ua,0564.ua,0566.com.ua,0569.com.ua,0619.com.ua,0623.com.ua,0629.com.ua,0642.ua,0652.ua,0692.ua,3849.com.ua,04141.com.ua,04563.com.ua,4594.com.ua,04596.com.ua,04597.com.ua,04598.com.ua,04868.com.ua,05136.com.ua,05161.com.ua,05366.com.ua,05447.com.ua,5692.com.ua,06153.com.ua,06236.com.ua,06237.com.ua,06239.com.ua,06242.ua,06252.com.ua,6262.com.ua,6264.com.ua,06267.com.ua,06272.com.ua,06274.com.ua,06277.com.ua,06452.com.ua##app-shift-widget-banner
+032.ua,44.ua,048.ua,056.ua,057.ua,061.ua,62.ua,0312.ua,0332.ua,0342.ua,0352.ua,0362.ua,0372.ua,0382.ua,0412.ua,0432.ua,0462.ua,0472.ua,0512.com.ua,0522.ua,0532.ua,0542.ua,0552.ua,0564.ua,0566.com.ua,0569.com.ua,0619.com.ua,0623.com.ua,0629.com.ua,0642.ua,0652.ua,0692.ua,3849.com.ua,04141.com.ua,04563.com.ua,4594.com.ua,04596.com.ua,04597.com.ua,04598.com.ua,04868.com.ua,05136.com.ua,05161.com.ua,05366.com.ua,05447.com.ua,5692.com.ua,06153.com.ua,06236.com.ua,06237.com.ua,06239.com.ua,06242.ua,06252.com.ua,6262.com.ua,6264.com.ua,06267.com.ua,06272.com.ua,06274.com.ua,06277.com.ua,06452.com.ua##app-special-link
+032.ua,44.ua,048.ua,056.ua,057.ua,061.ua,62.ua,0312.ua,0332.ua,0342.ua,0352.ua,0362.ua,0372.ua,0382.ua,0412.ua,0432.ua,0462.ua,0472.ua,0512.com.ua,0522.ua,0532.ua,0542.ua,0552.ua,0564.ua,0566.com.ua,0569.com.ua,0619.com.ua,0623.com.ua,0629.com.ua,0642.ua,0652.ua,0692.ua,3849.com.ua,04141.com.ua,04563.com.ua,4594.com.ua,04596.com.ua,04597.com.ua,04598.com.ua,04868.com.ua,05136.com.ua,05161.com.ua,05366.com.ua,05447.com.ua,5692.com.ua,06153.com.ua,06236.com.ua,06237.com.ua,06239.com.ua,06242.ua,06252.com.ua,6262.com.ua,6264.com.ua,06267.com.ua,06272.com.ua,06274.com.ua,06277.com.ua,06452.com.ua##app-standalone-banner
+032.ua,44.ua,048.ua,056.ua,057.ua,061.ua,62.ua,0312.ua,0332.ua,0342.ua,0352.ua,0362.ua,0372.ua,0382.ua,0412.ua,0432.ua,0462.ua,0472.ua,0512.com.ua,0522.ua,0532.ua,0542.ua,0552.ua,0564.ua,0566.com.ua,0569.com.ua,0619.com.ua,0623.com.ua,0629.com.ua,0642.ua,0652.ua,0692.ua,3849.com.ua,04141.com.ua,04563.com.ua,4594.com.ua,04596.com.ua,04597.com.ua,04598.com.ua,04868.com.ua,05136.com.ua,05161.com.ua,05366.com.ua,05447.com.ua,5692.com.ua,06153.com.ua,06236.com.ua,06237.com.ua,06239.com.ua,06242.ua,06252.com.ua,6262.com.ua,6264.com.ua,06267.com.ua,06272.com.ua,06274.com.ua,06277.com.ua,06452.com.ua##app-widget-banner
+032.ua,44.ua,048.ua,056.ua,057.ua,061.ua,62.ua,0312.ua,0332.ua,0342.ua,0352.ua,0362.ua,0372.ua,0382.ua,0412.ua,0432.ua,0462.ua,0472.ua,0512.com.ua,0522.ua,0532.ua,0542.ua,0552.ua,0564.ua,0566.com.ua,0569.com.ua,0619.com.ua,0623.com.ua,0629.com.ua,0642.ua,0652.ua,0692.ua,3849.com.ua,04141.com.ua,04563.com.ua,4594.com.ua,04596.com.ua,04597.com.ua,04598.com.ua,04868.com.ua,05136.com.ua,05161.com.ua,05366.com.ua,05447.com.ua,5692.com.ua,06153.com.ua,06236.com.ua,06237.com.ua,06239.com.ua,06242.ua,06252.com.ua,6262.com.ua,6264.com.ua,06267.com.ua,06272.com.ua,06274.com.ua,06277.com.ua,06452.com.ua##article.article-card:has(> div > div > div > div.article-card__title--toaster:has-text(Партнерський матеріал))
+032.ua,44.ua,048.ua,056.ua,057.ua,061.ua,62.ua,0312.ua,0332.ua,0342.ua,0352.ua,0362.ua,0372.ua,0382.ua,0412.ua,0432.ua,0462.ua,0472.ua,0512.com.ua,0522.ua,0532.ua,0542.ua,0552.ua,0564.ua,0566.com.ua,0569.com.ua,0619.com.ua,0623.com.ua,0629.com.ua,0642.ua,0652.ua,0692.ua,3849.com.ua,04141.com.ua,04563.com.ua,4594.com.ua,04596.com.ua,04597.com.ua,04598.com.ua,04868.com.ua,05136.com.ua,05161.com.ua,05366.com.ua,05447.com.ua,5692.com.ua,06153.com.ua,06236.com.ua,06237.com.ua,06239.com.ua,06242.ua,06252.com.ua,6262.com.ua,6264.com.ua,06267.com.ua,06272.com.ua,06274.com.ua,06277.com.ua,06452.com.ua##div[class^="banner"]
+032.ua,44.ua,048.ua,056.ua,057.ua,061.ua,62.ua,0312.ua,0332.ua,0342.ua,0352.ua,0362.ua,0372.ua,0382.ua,0412.ua,0432.ua,0462.ua,0472.ua,0512.com.ua,0522.ua,0532.ua,0542.ua,0552.ua,0564.ua,0566.com.ua,0569.com.ua,0619.com.ua,0623.com.ua,0629.com.ua,0642.ua,0652.ua,0692.ua,3849.com.ua,04141.com.ua,04563.com.ua,4594.com.ua,04596.com.ua,04597.com.ua,04598.com.ua,04868.com.ua,05136.com.ua,05161.com.ua,05366.com.ua,05447.com.ua,5692.com.ua,06153.com.ua,06236.com.ua,06237.com.ua,06239.com.ua,06242.ua,06252.com.ua,6262.com.ua,6264.com.ua,06267.com.ua,06272.com.ua,06274.com.ua,06277.com.ua,06452.com.ua##div[data-current-banner-id]
+1plus1.ua##div.articleHeaderAdv
+1plus1.ua##div.banner-catfish
+1plus1.ua##div.banner-pmm
+1plus1.ua##div.banner-pmu
+1plus1.ua##div.google-intext
+1plus1.ua##div.idealMediaContainer
+1plus1.ua##div.news__items:style(max-width: unset !important)
+1plus1.ua##div.post__partners
+1plus1.ua##div[class^="sidebar-banners"]
+1plus1.video##div.playlist-player:style(max-width: 1155px !important)
+1plus1.video##div.playlist-short-content:style(min-height: unset !important)
+1plus1.video##div[class^="playlist-player-branding"]
+24tv.ua##app-adv-placeholder
+24tv.ua##app-custom-adv-label
+24tv.ua##app-default-publications:has(> h5 > a[href*="24tv.ua/partnerki_tag"])
+24tv.ua##app-main-page-adv-block
+24tv.ua##div.video-container:has(> app-adv-video-placeholder)
+24tv.ua##div.video-dv-wrapper
+24tv.ua##div[id^="adv"]
+24tv.ua##div#idealMediaWrapper
+2day.kh.ua###block-reklamnyybanner
+2ip.ua##a.nobanner
+2ip.ua##div[class^="hmi-"]:has(> a[href*="/?utm_source=2ip.ua&"])
+3m2.ua##div.widget.widget_elementor-library:has(> div > div > div > div > a[target="_blank"])
+3m2.ua##section:has(>div > div > div > div > div > a[target="_blank"])
+4mama.ua##.sb-popular:style(margin-top: 0 !important)
+4mama.ua##.sb-projects
+4mama.ua##.sidebar > div[style="height: 10px;"]
+4mama.ua##div.header-banner
+4mama.ua##div.header-special
+4mama.ua##div[class$="-banner"]
+4mama.ua##div[id^="adpartner-"]
+4mama.ua##div[id^="bn-"]
+4studio.com.ua###custom_html-5
+4studio.com.ua##div.partners_block
+5.ua##[data-type="_mgwidget"]
+5.ua##div[class^="banner"]:has(div[id^="div-gpt-ad-"])
+5.ua##div[class$="banner"]:has(div[id^="div-gpt-ad-"])
+5.ua##section.article-related + h2
+aggeek.net##p:has(> a[title="послуги"])
+agrarii-razom.com.ua##div[id^="ac-adv-block-"]
+agro-business.com.ua###pwebbox234
+agro-business.com.ua###sp-breadcrumb
+agro-business.com.ua##div.apm-container:has(script[src*="&task=remote_ad"])
+agro-business.com.ua##div.live__wallper
+agro-business.com.ua##div.remote_ads
+agronews.ua,agroreview.com##body:style(background-image: unset !important)
+agronews.ua##div[class*="banner"]
+agronews.ua##div[class^="baner-"]
+agronomy.com.ua###g-fullwidth:has(div.platform-content:nth-of-type(-n+4))
+agronomy.com.ua###g-header
+agronomy.com.ua###pwebbox272
+agronomy.com.ua##div.live__wallper
+agronomy.com.ua##div[class^="adv_"]
+agropolit.com##a.branding
+agropolit.com##div.header__banner-wrap
+agroportal.ua##.fixedBlock
+agroportal.ua##a[href^="/"][target="_blank"]
+agroreview.com##div.bnrs
+agroreview.com##div[class^="banner"]
+agroreview.com##div[id^="aw-ad-baner-"]
+agroter.com.ua##div.entry-content-wrap > a[target="blank"]
+agrotimes.ua##div.header__banner
+agrotimes.ua##div.widget:has(> div > div[id^="admixer_"])
+agroweek.com##main.site-main > div[style="margin-top: 20px;"]
+ain.ua##:is(main, div.article-content__widgets) > article.widget:has(ul.widget__header_tags > li > :is(a[href$="/promo/"], a[href$="/special/"]))
+ain.ua##div.article-content__widgets > article.widget:has(a.widget__header_author[href="/author/advbot/"])
+ain.ua##div.branding-top
+ain.ua##div[class^="adsense-"]
+akzent.zp.ua##div.standard_blog + div + div
+akzent.zp.ua##div#main > .vc_row:nth-of-type(2) > div.wpb_column:not(:has(figure > a[href$="facebook.com/71brigade"]))
+apk-inform.com##div.market-btn--advertising
+apk-inform.com##div[class$="-banner"]
+apostrophe.ua##.advertinline
+apostrophe.ua##.bnr
+apostrophe.ua##.newscomp
+arguments.kyiv.ua,dailynews.kyiv.ua,elegantwoman.kyiv.ua,glamour.kyiv.ua,lady.kyiv.ua,medicalanswers.com.ua,news24.in.ua,novosti24.kyiv.ua,ua-novosti.info,ua-vestnik.com,useti.org.ua,woman24.kyiv.ua,womanlife.kyiv.ua,zhenskiy.kyiv.ua##.textwidget:has(> figure > a[rel="nofollow"])
+arguments.kyiv.ua,dailynews.kyiv.ua,elegantwoman.kyiv.ua,glamour.kyiv.ua,lady.kyiv.ua,medicalanswers.com.ua,news24.in.ua,novosti24.kyiv.ua,ua-novosti.info,ua-vestnik.com,useti.org.ua,woman24.kyiv.ua,womanlife.kyiv.ua,zhenskiy.kyiv.ua##.textwidget:has(script)
+arguments.kyiv.ua,dailynews.kyiv.ua,elegantwoman.kyiv.ua,glamour.kyiv.ua,lady.kyiv.ua,medicalanswers.com.ua,news24.in.ua,novosti24.kyiv.ua,ua-novosti.info,ua-vestnik.com,useti.org.ua,woman24.kyiv.ua,womanlife.kyiv.ua,zhenskiy.kyiv.ua##.widget_block:has(> figure > a[rel="nofollow"])
+arguments.kyiv.ua,dailynews.kyiv.ua,elegantwoman.kyiv.ua,glamour.kyiv.ua,lady.kyiv.ua,medicalanswers.com.ua,news24.in.ua,novosti24.kyiv.ua,ua-novosti.info,ua-vestnik.com,useti.org.ua,woman24.kyiv.ua,womanlife.kyiv.ua,zhenskiy.kyiv.ua##[data-elementor-post-type="elementor_library"]
+atn.ua##.ai_widget
+atn.ua##div.code-block:has(> div#ai-block)
+autocentre.ua##div.ads_aside
+autocentre.ua##div.sidebar_upper
+autocentre.ua##div[id*="-banner"]
+autoconsulting.com.ua##table:has(> tbody > tr > td.title:has-text(Лічильники))
+babel.ua##aside.c-subs-box.c-subs-social
+beauty.ua##.sb-partners
+beauty.ua##.sidebar > .sb-slider1
+beauty.ua##.sidebar > div[style^="margin-top:"]
+beauty.ua##div[class$="-banner"]
+beauty.ua##div[id^="adpartner-"]
+beauty.ua##div[id^="bn-"]
+bessarabia.ua##div.rekBlock
+bigkyiv.com.ua###turnkey-credit
+bigkyiv.com.ua##div:has(> div#banner-body)
+bigkyiv.com.ua##div.ads
+bigkyiv.com.ua##div[id^="banner-sidebar-"]
+bigkyiv.com.ua##div#banner-four-cols
+bihus.info##div.r-tram_wrap
+bild.ua##div:has(> div:is(.blockProjects,.blockPProjectBottom2))
+blackseanews.net##div.ad
+blik.ua##.sadse
+blitz.if.ua##.banner
+board.if.ua##noindex:has(div > ins.adsbygoogle)
+bon.ua##div.bottom-card-wrapper > div.banner
+bon.ua##div.container_banner
+bon.ua##noindex:has(> div > div.advert-banner)
+book-ye.com.ua##div.bb-left > div.banner-conatiner
+book-ye.com.ua##div.bb-right > div.banner-conatiner
+borgexpert.com##div.home-banner-mob
+borgexpert.com##div.widget-banner
+borgexpert.com##li.li-banner-mobile
+brokker.news##div.container-bn
+budport.com.ua##div.banner_bg
+budport.com.ua##div.tm-banner-slider
+budport.com.ua##header.page-head:style(height: unset !important)
+buhgalter.com.ua,buhgalter911.com##body.access *:style(filter: none !important)
+buhgalter.com.ua,buhgalter911.com##body.access div[id^="access-au"]
+buhgalter.com.ua,buhgalter911.com##body.access:style(overflow: auto !important; position: relative !important)
+buhgalter.com.ua,buhgalter911.com##div[data-ad="active"]
+buhgalter.com.ua##div
+! ========== [КІНЕЦЬ: Ukrainian Filters (Combined List)] ==========
+
+! ========== [ПОЧАТОК: Ukrainian Security Filter (hosts-based)] ==========
+! Title: Ukrainian Security Filter (hosts-based)
+! Description: Filter of malicious web resources (phishing, online fraud, malware, etc.) targeting Ukrainian citizens
+! Version: 25.05.2
+! Last modified: Sat, 03 May 2025 22:45 EEST
+! Expires: 1 day
+! Licence: https://github.com/braveinnovators/ukrainian-security-filter/blob/main/LICENSE
+!
+! Homepage: https://github.com/braveinnovators/ukrainian-security-filter
+! Issues: https://github.com/braveinnovators/ukrainian-security-filter/issues
+!
+||1webs.top^
+||1win.pro^
+||1x.games^
+||1xbet.ci^
+||1xbet.com^
+||1xbet.com.mx^
+||1xbet.kz^
+||1xbet.mobi^
+||1xbet.ng^
+||1xbett.mobi^
+||1xbet-new.com^
+||1xbit-ua.com^
+||1xslot.com^
+||1xslot-ua.com^
+||1-x-bet.com^
+||3ds-check.top^
+||3ds-connect.top^
+||3ds-fastpay.online^
+||3ds-opllata.site^
+||3ds-payswallet.online^
+||3ds-payz.site^
+||3ds-ua.top^
+||7goxbet.com^
+||8slottica.com^
+||10goxbet.com^
+||11goxbet.com^
+||13goxbet.com^
+||15jokerua.top^
+||24helpuapay.com^
+||24helpukr.com^
+||25shop.space^
+||97jokerua.top^
+||100bankiv.com.ua^
+||777originals.org^
+||888starz.bet^
+||accaunt-ua.fun^
+||accounts-ukr.com^
+||account-guard.site^
+||account-saver.com^
+||account-viewer.com^
+||ahome.uno^
+||aid24-ua.online^
+||aid24-ua.pw^
+||aid24-ua.site^
+||aid24-ua.space^
+||aid24-ua.website^
+||aidforukraine.za.com^
+||air-pro-ua.store^
+||alcohol-ukraine.com^
+||apple-ukraine.online^
+||asprobet.com^
+||astekbet.com^
+||autonovaposhta.org^
+||au-ukr.net^
+||avon-registration.com^
+||avon-ua.site^
+||avto-dok.online^
+||avto-dokyment.online^
+||awsmall.net^
+||awsvip.cc^
+||azinoplay.online^
+||backblk.com^
+||bank-uagov.online^
+||bc.game^
+||be2fun.pro^
+||bestcrutches.com^
+||bestshopukrain.fun^
+||best-store-ua.online^
+||bet2casino.fun^
+||bet2fun.lol^
+||bet2fun.online^
+||bet2fun.pro^
+||bet2fun.pw^
+||bet2fun.world^
+||bet2fun.xyz^
+||bet2fun1.fun^
+||bet2fun1.online^
+||bet2fun2.online^
+||bet2fun3.online^
+||bet2fun4.online^
+||bet2fun5.online^
+||bet2fun6.online^
+||bet2fun7.online^
+||bet2fun8.online^
+||betandyou.com^
+||betandyou1.com^
+||betandyou2.com^
+||betbet2fun.com^
+||betmatch2win.com^
+||bettwo.fun^
+||betwinner.com^
+||betwinner1.com^
+||betwinner2.com^
+||betwinner3.com^
+||betwinner4.com^
+||betwinner5.com^
+||betwinner6.com^
+||betwinner7.com^
+||betwinner-371307.top^
+||betwinner-india.com^
+||betwinner-ua.com^
+||betwinner-ukraine.com^
+||betworld247.com^
+||bet-boom.com^
+||bet-match1.io^
+||bet-match1.net^
+||be-ukr.net^
+||bg-ukr.net^
+||bigsales-ua.store^
+||bitcoinukraine.xyz^
+||bitfinexgroup.com^
+||bitshopping.net^
+||bitz.io^
+||bitz1.vip^
+||bitz2.vip^
+||bitz6.vip^
+||bk-1x-bet.com^
+||blockchain4ukraine.com^
+||bonanzagame21.com^
+||boompari.xyz^
+||bs-market.store^
+||btcinvesta.com^
+||btcukraine.xyz^
+||buddy1.bet^
+||buy-ua.com.ua^
+||b-twinner.com^
+||captcha-challenge.com^
+||carcover-ua.store^
+||carcover-ua.uno^
+||card-ua.cloud^
+||card-ua.pro^
+||card-ua.shop^
+||cashalot.bet^
+||cashpayforukrainepeople.business^
+||casinoaviator.com^
+||casinos-vip.net^
+||casino-elslots.net^
+||casino-joker-20.com^
+||cazino-vip.org^
+||champblack.com^
+||champclub.net^
+||championcasino.net^
+||chcplay.net^
+||chervonaikra-ua.fun^
+||childrens-fund-ukraine.com^
+||chipstars.bet^
+||clubdeluxe.net^
+||clubsvulkanbets.store^
+||clubvulcanbet.store^
+||coins.game^
+||coinukraine.xyz^
+||comfortshop-ukraine.space^
+||comfort-ua.store^
+||confirms-qr.com^
+||cosmobet.com^
+||cosmobet.one^
+||cosmolotukraine.co.uk^
+||cosmoslot.site^
+||courier.darkleads.pro^
+||crazy-hero.com^
+||cryptocurrency-helps-ukraine.com^
+||cryptoukraine.xyz^
+||datacheckqr.net^
+||data-mails.com^
+||data-ukr.com^
+||defender-bot.site^
+||derjavaukraine.cc^
+||derzhposluhy.com^
+||device-by-apple-ua.store^
+||devtome.top^
+||de-ukr.net^
+||diamondclub.casino^
+||discountshopukraine.store^
+||dmsu-ukr.pp.ua^
+||dopomoga.agency^
+||dopomoga.app^
+||dopomoga.bio^
+||dopomoga.buzz^
+||dopomoga.charity^
+||dopomoga.city^
+||dopomoga.club^
+||dopomoga.express^
+||dopomoga.fans^
+||dopomoga.foundation^
+||dopomoga.giving^
+||dopomoga.health^
+||dopomoga.icu^
+||dopomoga.in^
+||dopomoga.link^
+||dopomoga.me^
+||dopomoga.men^
+||dopomoga.news^
+||dopomoga.observer^
+||dopomoga.pics^
+||dopomoga.place^
+||dopomoga.rocks^
+||dopomoga.shop^
+||dopomoga.site^
+||dopomoga.social^
+||dopomoga.solutions^
+||dopomoga.space^
+||dopomoga.tech^
+||dopomoga.today^
+||dopomoga.website^
+||dopomoga.wtf^
+||dopomoga23.top^
+||dopomoga24.com^
+||dopomoga24.me^
+||dopomoga24.site^
+||dopomoga24pay.win^
+||dopomoga24privat.world^
+||dopomoga24pruvat.cfd^
+||dopomoga24pruvat.sbs^
+||dopomoga24ua.me^
+||dopomoga24ua.win^
+||dopomoga2023.com^
+||dopomoga2023.tech^
+||dopomoga2024.com^
+||dopomogaa.site^
+||dopomogaa.website^
+||dopomogaapp.online^
+||dopomogaatb.site^
+||dopomogaa-id03914.website^
+||dopomogaderjavna.org^
+||dopomogadia.me^
+||dopomogadiyaua.online^
+||dopomogafromoon-ukr.com^
+||dopomogagroshi.top^
+||dopomogahelp.com^
+||dopomogainukraine.com^
+||dopomogalive.online^
+||dopomogaofficialua.com^
+||dopomogaonleneukraina.co^
+||dopomogaonline.app^
+||dopomogaonline.biz^
+||dopomogaonline.club^
+||dopomogaonline.com^
+||dopomogaonline.express^
+||dopomogaonline.info^
+||dopomogaonline.net^
+||dopomogaonline.org^
+||dopomogaonline.shop^
+||dopomogaonline.site^
+||dopomogaonline.store^
+||dopomogaonline.xyz^
+||dopomogaonlinevpo.space^
+||dopomogaooh.pro^
+||dopomogaoon.space^
+||dopomogapays.site^
+||dopomogapro.club^
+||dopomogapruvat24ua.world^
+||dopomogatyt.info^
+||dopomogaua.live^
+||dopomogaua.pro^
+||dopomogaua.xyz^
+||dopomogaua24.me^
+||dopomogaua24.org^
+||dopomogauapruvat24.world^
+||dopomogaua-pidtrimka.com^
+||dopomogaua-pidtrimkaua.com^
+||dopomogauk.xyz^
+||dopomogaukr.site^
+||dopomogaukr.website^
+||dopomogaukraiine.com^
+||dopomogaukraiinee.website^
+||dopomogaukrainaua.com^
+||dopomogaukraine.store^
+||dopomogavidunicef.art^
+||dopomogavidunicef.blog^
+||dopomogavidunicef.charity^
+||dopomogavidunicef.cloud^
+||dopomogavidunicef.club^
+||dopomogavidunicef.foundation^
+||dopomogavidunicef.health^
+||dopomogavidunicef.info^
+||dopomogavidunicef.live^
+||dopomogavidunicef.online^
+||dopomogavidunicef.org^
+||dopomogavidunicef.photography^
+||dopomogavidunicef.pro^
+||dopomogavidunicef.shop^
+||dopomogavidunicef.site^
+||dopomogavidunicef.xyz^
+||dopomoga-2023.top^
+||dopomoga-aid.top^
+||dopomoga-atb.site^
+||dopomoga-az.site^
+||dopomoga-dia.com^
+||dopomoga-dlia-ukraintsiv.life^
+||dopomoga-epay.site^
+||dopomoga-ocshd.shop^
+||dopomoga-oon.com^
+||dopomoga-oschad.services^
+||dopomoga-oschad.shop^
+||dopomoga-p24.shop^
+||dopomoga-pr24.shop^
+||dopomoga-ua.click^
+||dopomoga-ua.info^
+||dopomoga-ua.online^
+||dopomoga-uaweb.website^
+||dopomoga-ua-online-web.site^
+||dopomoga-ukraine.cloud^
+||dopomoga-ukraine.com^
+||dopomoga-ukraine.pro^
+||dopomogi24.online^
+||dopomogs-ukr.top^
+||dopomohaukraine.world^
+||dopomoha-ua.company.site^
+||dopomoha-ua.website^
+||dopoviplataua.xyz^
+||dostavka-ua.fun^
+||dostavka-ua.space^
+||dostavka-ukr.fun^
+||dostavka-ukr.space^
+||dostawo4ka-ua.life^
+||dragongold88.com^
+||dragonsgold888.com^
+||dude1.bet^
+||dude2.bet^
+||easy-casino.net^
+||ebayua.cc^
+||ebayua.com^
+||ebayua.vip^
+||ebayukraine.com^
+||ebayukraine.vip^
+||ebay-ua.com^
+||ecommerceukraine.website^
+||edoopomoga.xyz^
+||elastiko.online^
+||elastiko.pro^
+||elslots.net^
+||elslotswin.com^
+||enersit.com^
+||enot-sale.com.ua^
+||enters-qr.com^
+||en-ukr.net^
+||epicentrk.dp.ua^
+||epidtrimka.com^
+||epidtrimkadopomoga.com^
+||epidtrimkaua.info^
+||epidtrumka.org^
+||epidtrymka.cloud^
+||es888starz.com^
+||estofounds.christmas^
+||europeanchallengeukraine.eu^
+||events-ukr.site^
+||everest-bet.com^
+||e-dopomoga.click^
+||e-dopomoga.uk^
+||e-dopomogaua.me^
+||e-dopomoga-perekazy24.space^
+||e-grivn.com^
+||e-gryvnia.com^
+||e-viplata.space^
+||e-vyplata.com^
+||f1casino.club^
+||facebook-ua.info^
+||fan-sport.biz.ua^
+||fan-sportua.com^
+||fan-sportua.org^
+||fan-sportua.pw^
+||fan-sportua.space^
+||fan-sportua.tech^
+||fan-sportua.top^
+||fan-sportua.xyz^
+||fan-sport-ua.com^
+||fan-sport-ua.online^
+||fan-sport-ua.website^
+||favbet.casino^
+||favbet.com^
+||favbetukraine.co.uk^
+||favorit.com.ua^
+||favorit1.com.ua^
+||favoritua.com^
+||fav-luck-ua.com^
+||fav-pay-ua.com^
+||ferstka.shop^
+||finance-dopomoga.site^
+||findopomoga.sbs^
+||finua.online^
+||firstgrader.com.ua^
+||fizzslots.com^
+||flashlight-ua.store^
+||flashmarketua.store^
+||flexcapital.com^
+||freeggbet.com^
+||fresh.casino^
+||gaz-ua.site^
+||getdopomoga.online^
+||getpaysua.me^
+||getposhta.online^
+||get-moneyua.pro^
+||get-paysua24.net^
+||gg.bet^
+||ggbbbet.com^
+||ggbets.co^
+||ggpokerok.com^
+||gingerbread-ua.store^
+||girlyanda.store^
+||gizbocasino.com^
+||god-le.com^
+||god-le.net^
+||gogleeo.shop^
+||gohelpukraina24.site^
+||goldcup24.com^
+||goldcup365.com^
+||good-ua.store^
+||googlee.pw^
+||goturozetka.com^
+||goturozetka.vip^
+||gov24-ua.com^
+||goviplataua.info^
+||govs-ua.com^
+||govs-ua.io^
+||govua.buzz^
+||govua.link^
+||govua.shop^
+||govuad24.cloud^
+||gov-ua.cyou^
+||gov-ua.icu^
+||gov-ua.pics^
+||gov-ukrain.icu^
+||goxbet4.com^
+||grandspincasino.net^
+||grompokerua.com^
+||grompokerua2.com^
+||grompokerua33.com^
+||groshidopomoga.top^
+||groshinarahunok.com^
+||grosovadopomoga.shop^
+||group-invitation.site^
+||harpoon.dp.ua^
+||help24ua.com^
+||help24uapay.com^
+||help24ukr.com^
+||help24-viplata.me^
+||helper-ua.info^
+||helper-ua.site^
+||helper-ua.xyz^
+||helpfond-ua.buzz^
+||helpforua.me^
+||helpforukraine.online^
+||helpgroshiua.foundation^
+||helpgroshiua.pro^
+||helping-ukr.site^
+||helposchad24.shop^
+||helpukr.pro^
+||helpukr.support^
+||helpukr24.com^
+||helpukraina.site^
+||helpukraine.direct^
+||helpukraine.uk^
+||helpukrainian.site^
+||helpukrpay.com^
+||help-for-ukraine.online^
+||help-oschad24.shop^
+||help-ua.in.ua^
+||help-ua.social^
+||help-ukr.mobi^
+||help-ukrain.xyz^
+||help-ukraine.icu^
+||help-ukraine.org^
+||help-ukraine.space^
+||help-ukraine.top^
+||help-ukraine.website^
+||help-ukraine-vsu.com^
+||help-vsu-ukraine.com^
+||hitachi-ukraine.com^
+||hitgoodsukr.store^
+||homeanimal.site^
+||hometrends.top^
+||home-internet-kyivstar.com.ua^
+||home-kyivstar.online^
+||hsc-ua.online^
+||icanshop.pp.ua^
+||ilyukr.site^
+||info-ukr.charity^
+||internet-kyivstar.com^
+||internet-kyivstar.com.ua^
+||intrestingukrainefun.fun^
+||in-touc.com^
+||ipay-ua.online^
+||izzicasino.com^
+||izzicasino1702.com^
+||izzicasino1704.com^
+||izzi-money.online^
+||i-ua.website^
+||jackpot.com^
+||joepay.online^
+||johnny24.bet^
+||johnny24.com^
+||joker.green^
+||joker.land^
+||joker.ua^
+||jokerua.live^
+||jokerua.pro^
+||jokerua.top^
+||jokerua.vip^
+||joycasino2.com.ua^
+||kalmar-ukr-shop.space^
+||kasinos-vip.net^
+||kasinos-vip.xyz^
+||kasinovip.net^
+||kasino-vavada.co^
+||kaspi-online.top^
+||kattele.store^
+||kattele.top^
+||kazinosvip.net^
+||kievstar.online^
+||kievstar.org^
+||kiiev.site^
+||kojnomydopomoga.sbs^
+||komfort-house.store^
+||konkurs.pics^
+||konkurs.pw^
+||konkurs.site^
+||konkurs23.site^
+||konkurs2023.site^
+||konkursua.site^
+||konkurs-23.site^
+||konkurs-24.site^
+||konkurs-events.top^
+||konkurs-golos.ltd^
+||konkurs-leto.online^
+||konkurs-my.site^
+||konkurs-ua.site^
+||konkurs-uk.site^
+||konkurs-ukraine.site^
+||krakencasino.club^
+||krakencassino.com^
+||kyivstar.biz^
+||kyivstar.biz.ua^
+||kyivstar.com^
+||kyivstar.com.ua^
+||kyivstar.eu^
+||kyivstar.in^
+||kyivstar.info^
+||kyivstar.in.ua^
+||kyivstar.me^
+||kyivstar.mobi^
+||kyivstar.org^
+||kyivstar.org.ua^
+||kyivstar.pl^
+||kyivstar.pro^
+||kyivstar.shop^
+||kyivstarbezlim.com^
+||kyivstardance.com.ua^
+||kyivstarhome.pp.ua^
+||kyivstarpay.com^
+||kyivstarsale.online^
+||kyivstarshop.com^
+||kyivstarshop.net^
+||kyivstar-connect-internet.com.ua^
+||kyivstar-home.com.ua^
+||kyivstar-home-internet.com.ua^
+||kyivstar-home-promo.com.ua^
+||kyivstar-inet.com^
+||kyivstar-internet.com^
+||kyivstar-internet.com.ua^
+||kyivstar-internet.tk^
+||kyivstar-net.com.ua^
+||kyivstar-sale.com.ua^
+||kyivstar-shop.com^
+||kyivstar-shop.com.ua^
+||kyivstar-shop.net^
+||kyivstar-tv.com.ua^
+||kyivstar-vebo.com.ua^
+||lampsukraine.shop^
+||land.darkleads.pro^
+||leemsedo.co.ua^
+||legzo.casino^
+||legzocasinoua.com^
+||leon.bet^
+||leonuamail.com^
+||letokonkurs.site^
+||likpay.me^
+||liqpay.info^
+||lite.1xbet-new.com^
+||live-konkurs.site^
+||loginqrukr.net^
+||logsdataqr.com^
+||loot.bet^
+||lotorey-ua.top^
+||lotory-ua.top^
+||loto-zoloto.net^
+||lotto247.com^
+||lottogo.com^
+||lottoland.com^
+||luxury-store-ua.space^
+||lviv.in.net^
+||m.casinoaviator.com^
+||m.melbetua.com^
+||m.retivabet.com^
+||m.vbetua1.com^
+||m.vbetua.com^
+||magazine-ua.store^
+||magazine-ukraine.shop^
+||magic-brash-in-ua.shop^
+||mail-ukr.site^
+||mail-ukr.website^
+||mail-ukr-net.systems^
+||mak-store.online^
+||malunki-ua.site^
+||manypay.shop^
+||marathonbet.com^
+||marathonbet.es^
+||marketexclusive.store^
+||marketlace.store^
+||market-ua.site^
+||marvelcasino.games^
+||maxi-sales.store^
+||maxi-store.com.ua^
+||maxline.by^
+||maxlink.click^
+||megapari.com^
+||megashops.online^
+||megaukrshop.fun^
+||melbet.cd^
+||melbet.com^
+||melbetua.com^
+||melbet-60491.top^
+||melbet-india.net^
+||merejjka.store^
+||meta-ua.com^
+||meta-ua.site^
+||meta-ukr.su^
+||me-raiffsen.charity^
+||minagroua.com^
+||minagroua.org^
+||minmoz.com^
+||minmoz.org^
+||mioriginal.fun^
+||mirotrent.com^
+||mobilluck.com.ua^
+||mobiplategi.lol^
+||moda-ua.online^
+! ========== [КІНЕЦЬ: Ukrainian Security Filter (hosts-based)] ==========
+
+! ========== [ПОЧАТОК: AdAway default blocklist] ==========
+! AdAway default blocklist
+! Blocking mobile ad providers and some analytics providers
+!
+! Project home page:
+! https://github.com/AdAway/adaway.github.io/
+!
+! Fetch the latest version of this file:
+! https://raw.githubusercontent.com/AdAway/adaway.github.io/master/hosts.txt
+!
+! License:
+! CC Attribution 3.0 (http://creativecommons.org/licenses/by/3.0/)
+!
+! Contributions by:
+! Kicelo, Dominik Schuermann.
+! Further changes and contributors maintained in the commit history at
+! https://github.com/AdAway/adaway.github.io/commits/master
+!
+! Contribute:
+! Create an issue at https://github.com/AdAway/adaway.github.io/issues
+!
+! [163.com]
+||analytics.163.com^
+||crash.163.com^
+||iad.g.163.com^
+! [1mobile.com]
+||api4.1mobile.com^
+! [1rx.io]
+||sync.1rx.io^
+||tag.1rx.io^
+! [206ads.com]
+||s.206ads.com^
+! [247-inc.net]
+||api.247-inc.net^
+||tie.247-inc.net^
+! [247realmedia.com]
+||247realmedia.com^
+! [2mdn.net]
+||s0.2mdn.net^
+! [33across.com]
+||cms-xch-chicago.33across.com^
+||ssc.33across.com^
+||ssc-cms.33across.com^
+! [360in.com]
+||360in.com^
+||ad.360in.com^
+||challenge.360in.com^
+||dispatcher.360in.com^
+||exp.360in.com^
+! [360yield.com]
+||ad.360yield.com^
+! [3gl.net]
+||3gl.net^
+||g.3gl.net^
+||r.3gl.net^
+! [3lift.com]
+||as-eb2.3lift.com^
+||as-tlx.3lift.com^
+||cdn.3lift.com^
+||dmpsync.3lift.com^
+||eb2.3lift.com^
+||eu-tlx.3lift.com^
+||ib.3lift.com^
+||images.3lift.com^
+||img.3lift.com^
+||staging-tlx.3lift.com^
+||tlx.3lift.com^
+||update.3lift.com^
+||s.update.3lift.com^
+||us-east-tlx.3lift.com^
+||us-west-tlx.3lift.com^
+! [404mobi.com]
+||404mobi.com^
+! [4dex.io]
+||c.4dex.io^
+||script.4dex.io^
+! [4dsply.com]
+||4dsply.com^
+! [4seeresults.com]
+||4seeresults.com^
+||controller.4seeresults.com^
+||device.4seeresults.com^
+||replaycontroller.4seeresults.com^
+! [51ginkgo.com]
+||51ginkgo.com^
+! [81plug.com]
+||logs.81plug.com^
+! [88-f.net]
+||cdn.88-f.net^
+||config.88-f.net^
+! [9gag.com]
+||rlog.9gag.com^
+! [a-ads.com]
+||ad.a-ads.com^
+||click.a-ads.com^
+||static.a-ads.com^
+! [a.ki]
+||fl.a.ki^
+! [a2z.com]
+||prod.cm.publishers.advertising.a2z.com^
+||notify.bugsnag.appstore.a2z.com^
+||analytics.console.aws.a2z.com^
+||pr.analytics.console.aws.a2z.com^
+||prod.pr.analytics.console.aws.a2z.com^
+||ap-southeast-1.prod.pr.analytics.console.aws.a2z.com^
+||us-east-1.prod.pr.analytics.console.aws.a2z.com^
+||us-east-2.prod.pr.analytics.console.aws.a2z.com^
+||us-west-2.prod.pr.analytics.console.aws.a2z.com^
+||pw.analytics.console.aws.a2z.com^
+||prod.pw.analytics.console.aws.a2z.com^
+||metrics.client-eng.a2z.com^
+||global.telemetry.insights.video.a2z.com^
+! [a3cloud.net]
+||segment.a3cloud.net^
+! [a8.net]
+||a8.net^
+! [aa.com]
+||smetrics.aa.com^
+! [aamapi.com]
+||aamapi.com^
+! [aamsitecertifier.com]
+||aamcf.aamsitecertifier.com^
+! [aarki.net]
+||adx-asia.aarki.net^
+||adx-asia-imp.aarki.net^
+||adx-west-imp.aarki.net^
+||chartboost-imp.aarki.net^
+||rm.aarki.net^
+||rm-hk.aarki.net^
+||spire.aarki.net^
+||unity-imp.aarki.net^
+! [aatkit.com]
+||lb.aatkit.com^
+||reporting.aatkit.com^
+||rules.aatkit.com^
+||rules2.aatkit.com^
+||rules3.aatkit.com^
+||tracking.aatkit.com^
+! [aaxads.com]
+||c.aaxads.com^
+! [abbi.io]
+||assets.abbi.io^
+||rtapi.abbi.io^
+||stats.abbi.io^
+! [abc.com]
+||sw88.abc.com^
+! [abtasty.com]
+||ariane.abtasty.com^
+||dcinfos-cache.abtasty.com^
+||sr-tag.abtasty.com^
+! [accengage.com]
+||pingapi.accengage.com^
+! [accengage.net]
+||daraz-by.accengage.net^
+! [accesstrade.vn]
+||static.accesstrade.vn^
+! [acmeaom.com]
+||tags.acmeaom.com^
+! [activemetering.com]
+||activemetering.com^
+||track.activemetering.com^
+! [acuityplatform.com]
+||ums.acuityplatform.com^
+! [ad-brix.com]
+||config.ad-brix.com^
+! [ad-delivery.net]
+||ad-delivery.net^
+! [ad-locus.com]
+||api.ad-locus.com^
+||a.api.ad-locus.com^
+! [ad-score.com]
+||data.ad-score.com^
+||data2.ad-score.com^
+||js2.ad-score.com^
+||rdr.ad-score.com^
+||rt.ad-score.com^
+! [ad-srv.co]
+||c.ad-srv.co^
+! [ad-stir.com]
+||ad-stir.com^
+||bypass.ad-stir.com^
+||js.ad-stir.com^
+||sync.ad-stir.com^
+||tr.ad-stir.com^
+! [ad-x.co.uk]
+||ad-x.co.uk^
+||apps.ad-x.co.uk^
+! [ad.gt]
+||a.ad.gt^
+||ids.ad.gt^
+||p.ad.gt^
+||pixels.ad.gt^
+||seg.ad.gt^
+! [ad.org.vn]
+||ad.org.vn^
+||serving.ad.org.vn^
+! [ad2iction.com]
+||adlogs.ad2iction.com^
+||ads.ad2iction.com^
+||content.ad2iction.com^
+! [ad4game.com]
+||ads.ad4game.com^
+! [ad6media.fr]
+||ad6media.fr^
+! [adacado.com]
+||ad.adacado.com^
+||content.adacado.com^
+||info.adacado.com^
+||pixel.adacado.com^
+||strtrk.adacado.com^
+! [adadapted.com]
+||ads.adadapted.com^
+||ec.adadapted.com^
+||images.adadapted.com^
+||payload.adadapted.com^
+! [adalliance.io]
+||aqt.adalliance.io^
+||mafo.adalliance.io^
+! [adalyser.com]
+||tracking.adalyser.com^
+! [adap.tv]
+||adap.tv^
+||segments.adap.tv^
+||sync.adap.tv^
+! [adapex.io]
+||adapex.io^
+||cdn.adapex.io^
+! [adasiaholdings.com]
+||adasiaholdings.com^
+||adnetwork.adasiaholdings.com^
+! [adblade.com]
+||adblade.com^
+||dmp.adblade.com^
+||pixel.adblade.com^
+||static-cdn.adblade.com^
+! [adbro.me]
+||adbro.me^
+||apis.adbro.me^
+||cdn.adbro.me^
+! [adcalls.nl]
+||api.adcalls.nl^
+! [adcdnx.com]
+||cdn1.adcdnx.com^
+! [adcel.co]
+||rtb.adcel.co^
+! [adcell.com]
+||t.adcell.com^
+! [adcolony.com]
+||adcolony.com^
+||adc3-assets.adcolony.com^
+||adc3-launch.adcolony.com^
+||ads30.adcolony.com^
+||androidads20.adcolony.com^
+||androidads21.adcolony.com^
+||androidads23.adcolony.com^
+||androidads4-3.adcolony.com^
+||androidads4-5.adcolony.com^
+||androidads4-7.adcolony.com^
+||androidads4-8.adcolony.com^
+||c4d-cdn.adcolony.com^
+||c4dm.adcolony.com^
+||cpa.adcolony.com^
+||events3.adcolony.com^
+||events3alt.adcolony.com^
+||iosads24.adcolony.com^
+||rtb.adcolony.com^
+||wd.adcolony.com^
+! [addealsnetwork.com]
+||adsinter1.addealsnetwork.com^
+||adsvideo1.addealsnetwork.com^
+||trk-int.addealsnetwork.com^
+! [addthis.com]
+||api.addthis.com^
+||api-public.addthis.com^
+||cw.addthis.com^
+||dlx.addthis.com^
+||e.dlx.addthis.com^
+||m.dlx.addthis.com^
+||p.dlx.addthis.com^
+||x.dlx.addthis.com^
+||edge.addthis.com^
+||m.addthis.com^
+||q.addthis.com^
+||s7.addthis.com^
+||s8.addthis.com^
+||su.addthis.com^
+||v1.addthis.com^
+! [addthiscdn.com]
+||cache.addthiscdn.com^
+! [addthisedge.com]
+||m.addthisedge.com^
+! [addtoany.com]
+||static.addtoany.com^
+||stats.addtoany.com^
+! [adelement.com]
+||ads.adelement.com^
+||ctv.adelement.com^
+||sc.adelement.com^
+! [adentifi.com]
+||bm.adentifi.com^
+||rtb.adentifi.com^
+! [adfalcon.com]
+||adfalcon.com^
+||api.adfalcon.com^
+! [adforgames.com]
+||adforgames.com^
+! [adform.com]
+||adform.com^
+! [adform.net]
+||adform.net^
+||a1.adform.net^
+||adx.adform.net^
+||adx2.adform.net^
+||asia.adform.net^
+||c1.adform.net^
+||cm.adform.net^
+||cm2.adform.net^
+||cm3.adform.net^
+||dmp.adform.net^
+||s2.adform.net^
+||track.adform.net^
+! [adformdsp.net]
+||adformdsp.net^
+! [adfox.net]
+||banners.adfox.net^
+! [adfox.ru]
+||ads.adfox.ru^
+||banners.adfox.ru^
+! [adfurikun.jp]
+||adfurikun.jp^
+||api.adfurikun.jp^
+||ginf.adfurikun.jp^
+! [adfuture.cn]
+||adfuture.cn^
+||folder.adfuture.cn^
+||fotacontrol.adfuture.cn^
+||rebootv5.adfuture.cn^
+! [adgaterewards.com]
+||clk.adgaterewards.com^
+||wall.adgaterewards.com^
+! [adgear.com]
+||adgear.com^
+! [adgrx.com]
+||adgrx.com^
+||cdn.adgrx.com^
+||cdn-stv.adgrx.com^
+||cm.adgrx.com^
+||rtb.adgrx.com^
+||tvx.adgrx.com^
+! [adhaven.com]
+||adobe.adhaven.com^
+||beachfront.adhaven.com^
+||e.adhaven.com^
+||nxd.adhaven.com^
+||openx.adhaven.com^
+||telaria.adhaven.com^
+! [adhese.com]
+||ads-mediafin.adhese.com^
+||pool-mediafin.adhese.com^
+||pool-pebblemedia.adhese.com^
+! [adhigh.net]
+||px.adhigh.net^
+! [adhitzads.com]
+||adhitzads.com^
+! [adhood.com]
+||adhood.com^
+! [adikteev.com]
+||aksdk-images.adikteev.com^
+! [adincube.com]
+||tag.adincube.com^
+! [adingo.jp]
+||adingo.jp^
+||cc.adingo.jp^
+||hv.adingo.jp^
+||pdn.adingo.jp^
+||sh.adingo.jp^
+! [adition.com]
+||ad11p.adfarm1.adition.com^
+||ad13.adfarm1.adition.com^
+||adsdk.adfarm1.adition.com^
+||dspcluster.adfarm1.adition.com^
+||cd.adition.com^
+||imagesrv.adition.com^
+||track.adition.com^
+||vt.adition.com^
+! [adizio.com]
+||pool.adizio.com^
+! [adj.st]
+||adj.st^
+||3p3x.adj.st^
+||4495.adj.st^
+||94vs.adj.st^
+||af4a.adj.st^
+||bhpz.adj.st^
+||q4mn.adj.st^
+||r8qs.adj.st^
+||sxj8.adj.st^
+! [adjoe.zone]
+||fraud.adjoe.zone^
+||prod.fraud.adjoe.zone^
+||prod.adjoe.zone^
+! [adjust.com]
+||adjust.com^
+||app.adjust.com^
+||s2s.adjust.com^
+||ulink.adjust.com^
+||app.us.adjust.com^
+||view.adjust.com^
+! [adjust.net.in]
+||adjust.net.in^
+||app.adjust.net.in^
+! [adjust.world]
+||adjust.world^
+||app.adjust.world^
+! [adkernel.com]
+||dsp.adkernel.com^
+||static-rtb.adkernel.com^
+||sync.adkernel.com^
+||tag.adkernel.com^
+! [adkmob.com]
+||bp.adkmob.com^
+||cm.adkmob.com^
+||profile.adkmob.com^
+||ssdk.adkmob.com^
+||ufs.adkmob.com^
+! [adleadevent.com]
+||adtrack.adleadevent.com^
+! [adledge.com]
+||rs2.adledge.com^
+! [adligature.com]
+||cdn.adligature.com^
+! [adlightning.com]
+||tagan.adlightning.com^
+! [adlooxtracking.com]
+||am.adlooxtracking.com^
+||as.adlooxtracking.com^
+||datam16.adlooxtracking.com^
+! [admanmedia.com]
+||cs.admanmedia.com^
+! [admantx.com]
+||async01.admantx.com^
+||euasync01.admantx.com^
+||usasync01.admantx.com^
+! [admarketplace.net]
+||bridge.lga1.admarketplace.net^
+||pca.admarketplace.net^
+||bridge.sfo1.admarketplace.net^
+||tracking.admarketplace.net^
+! [admarvel.com]
+||admarvel.com^
+||ads.admarvel.com^
+||amp.admarvel.com^
+||base-cdn.admarvel.com^
+||omax.admarvel.com^
+! [admaster.com.cn]
+||admaster.com.cn^
+||cm.admaster.com.cn^
+||iclick.cm.admaster.com.cn^
+||smt.admaster.com.cn^
+! [admatic.com.tr]
+||cdn2.admatic.com.tr^
+! [admedia.com]
+||b.admedia.com^
+||click.admedia.com^
+||pixel.admedia.com^
+! [admedo.com]
+||admedo.com^
+||l.admedo.com^
+||pj.l.admedo.com^
+||ps.l.admedo.com^
+! [admicro.vn]
+||adi.admicro.vn^
+||admatic.admicro.vn^
+||adnetwork.admicro.vn^
+||adx.admicro.vn^
+||goodsp.admicro.vn^
+||logging.admicro.vn^
+||lg1.logging.admicro.vn^
+||pson.logging.admicro.vn^
+||media1.admicro.vn^
+||min.admicro.vn^
+||sspapi.admicro.vn^
+! [admitad.com]
+||admitad.com^
+||ad.admitad.com^
+||fonts.ad.admitad.com^
+||cdn.admitad.com^
+! [admixer.co.kr]
+||admixer.co.kr^
+||adn.admixer.co.kr^
+! [admixer.net]
+||admixer.net^
+||inv-nets-eu.admixer.net^
+! [admob.com]
+||apps.admob.com^
+||media.admob.com^
+! [admost.com]
+||admost.com^
+||cdn-api.admost.com^
+||go.admost.com^
+||med-api.admost.com^
+! [admulti.com]
+||admulti.com^
+||gag.admulti.com^
+! [adnetmedia.lt]
+||banners.adnetmedia.lt^
+! [adnetwork.vn]
+||adnetwork.vn^
+||delivery.adnetwork.vn^
+||media.adnetwork.vn^
+! [adnium.com]
+||adnium.com^
+||a.adnium.com^
+! [adnxs-simple.com]
+||acdn.adnxs-simple.com^
+||ib.adnxs-simple.com^
+||nym1-ib.adnxs-simple.com^
+! [adnxs.com]
+||acdn.adnxs.com^
+||adscale-emea.adnxs.com^
+||ams1-ib.adnxs.com^
+||anycast.adnxs.com^
+||ib.anycast.adnxs.com^
+||m.anycast.adnxs.com^
+||mobile.anycast.adnxs.com^
+||b.adnxs.com^
+||cdn.adnxs.com^
+||crcdn01.adnxs.com^
+||crcdn09.adnxs.com^
+||dcdn.adnxs.com^
+||ib.adnxs.com^
+||iqzn-useast.adnxs.com^
+||lax1-ib.adnxs.com^
+||m.adnxs.com^
+||mediation.adnxs.com^
+||nym1-ib.adnxs.com^
+||p.adnxs.com^
+||nine-a.p.adnxs.com^
+||yj.p.adnxs.com^
+||yj-a.p.adnxs.com^
+||prebid.adnxs.com^
+||rb.adnxs.com^
+||secure.adnxs.com^
+||sharethrough.adnxs.com^
+||sin3-ib.adnxs.com^
+||vcdn.adnxs.com^
+! [adobe.com]
+||campaign.adobe.com^
+||mcd-mkt-prod31-lb.campaign.adobe.com^
+||pandoramedia-mkt-prod1-t.campaign.adobe.com^
+||wdpro-mkt-prod2-lb.campaign.adobe.com^
+||geo.adobe.com^
+||adtag.primetime.adobe.com^
+||sstats.adobe.com^
+! [adop.cc]
+||adop.cc^
+||appinfo.adop.cc^
+||compass.adop.cc^
+! [adotmob.com]
+||adserver.adotmob.com^
+||dmp.adotmob.com^
+||dsp.adotmob.com^
+||sdk.adotmob.com^
+||sync.adotmob.com^
+||tracker.adotmob.com^
+! [adotube.com]
+||adotube.com^
+! [adperfect.com]
+||casmp.adperfect.com^
+! [adpia.vn]
+||click.adpia.vn^
+! [adpies.com]
+||adp.adpies.com^
+! [adplex.co.kr]
+||adplex.co.kr^
+||log.adplex.co.kr^
+! [adpopcorn.com]
+||sspi.adpopcorn.com^
+||ssptrk.adpopcorn.com^
+! [adpushup.com]
+||amp.adpushup.com^
+||public-webservice.apdc1n.adpushup.com^
+||apdc3n.adpushup.com^
+||public-webservice.apdc3n.adpushup.com^
+||cdn.adpushup.com^
+||geo.adpushup.com^
+||public-webservice.geo.adpushup.com^
+||vastdump-staging.adpushup.com^
+! [adpxl.co]
+||adpxl.co^
+||adpxljs.adpxl.co^
+||fl.adpxl.co^
+! [adreactor.com]
+||adserver.adreactor.com^
+! [adrizer.com]
+||run.adrizer.com^
+! [adroll.com]
+||adroll.com^
+||adx-winners-ap-southeast-1-rtb.adroll.com^
+||adx-winners-eu-west-1-rtb.adroll.com^
+||adx-winners-us-east-1-rtb.adroll.com^
+||adx-winners-us-west-2-rtb.adroll.com^
+||apn-winners-ap-southeast-1-rtb.adroll.com^
+||apn-winners-eu-west-1-rtb.adroll.com^
+||apn-winners-us-east-1-rtb.adroll.com^
+||apn-winners-us-west-2-rtb.adroll.com^
+||app.adroll.com^
+||d.adroll.com^
+||index-winners-ap-southeast-1-rtb.adroll.com^
+||index-winners-eu-west-1-rtb.adroll.com^
+||index-winners-us-east-1-rtb.adroll.com^
+||index-winners-us-west-2-rtb.adroll.com^
+||opx-winners-eu-west-1-rtb.adroll.com^
+||opx-winners-us-east-1-rtb.adroll.com^
+||opx-winners-us-west-2-rtb.adroll.com^
+||pubmatic-winners-eu-west-1-rtb.adroll.com^
+||pubmatic-winners-us-east-1-rtb.adroll.com^
+||pubmatic-winners-us-west-2-rtb.adroll.com^
+||rub-winners-eu-west-1-rtb.adroll.com^
+||rub-winners-us-east-1-rtb.adroll.com^
+||rub-winners-us-west-2-rtb.adroll.com^
+||yax-winners-ap-southeast-1-rtb.adroll.com^
+||yax-winners-eu-west-1-rtb.adroll.com^
+||yax-winners-us-east-1-rtb.adroll.com^
+||yax-winners-us-west-2-rtb.adroll.com^
+! [adrta.com]
+||adrta.com^
+||cdn.adrta.com^
+||gateway.adrta.com^
+||ipds.gateway.adrta.com^
+||ipds.adrta.com^
+||ipv6.adrta.com^
+||p.adrta.com^
+||pix.adrta.com^
+||q.adrta.com^
+||r.adrta.com^
+! [adrtx.net]
+||adstax-match.adrtx.net^
+||adstax-match-proxy.adrtx.net^
+||api.adrtx.net^
+||cdn.adrtx.net^
+! [ads-twitter.com]
+||ads-twitter.com^
+||static.ads-twitter.com^
+! [ads1-adnow.com]
+||ads1-adnow.com^
+||n.ads1-adnow.com^
+||st-n.ads1-adnow.com^
+! [ads2-adnow.com]
+||ads2-adnow.com^
+||n.ads2-adnow.com^
+! [ads3-adnow.com]
+||ads3-adnow.com^
+||n.ads3-adnow.com^
+||st-n.ads3-adnow.com^
+! [ads5-adnow.com]
+||ads5-adnow.com^
+||n.ads5-adnow.com^
+||st-n.ads5-adnow.com^
+! [adsafeprotected.com]
+||adsafeprotected.com^
+||cdn.adsafeprotected.com^
+||dt.adsafeprotected.com^
+||fw.adsafeprotected.com^
+||mobile.adsafeprotected.com^
+||orfw.adsafeprotected.com^
+||orpixel.adsafeprotected.com^
+||pixel.adsafeprotected.com^
+||sgfw.adsafeprotected.com^
+||sgpixel.adsafeprotected.com^
+||spixel.adsafeprotected.com^
+||static.adsafeprotected.com^
+||unified.adsafeprotected.com^
+||vafw.adsafeprotected.com^
+||vapixel.adsafeprotected.com^
+||vast.adsafeprotected.com^
+||video.adsafeprotected.com^
+||wrapper-vast.adsafeprotected.com^
+! [adsafety.net]
+||cm.adsafety.net^
+||tags.adsafety.net^
+! [adsame.com]
+||adsame.com^
+! [adsbynimbus.com]
+||adsbynimbus.com^
+||growlr.adsbynimbus.com^
+||mw-encyclopediabritannica.adsbynimbus.com^
+||timehop.adsbynimbus.com^
+||turbo.adsbynimbus.com^
+||ua-myfitnesspal.adsbynimbus.com^
+||weatherbug.adsbynimbus.com^
+! [adscale.de]
+||adscale.de^
+! ========== [КІНЕЦЬ: AdAway default blocklist] ==========
+
+! ========== [ПОЧАТОК: d3Host List by d3ward] ==========
+! Title: d3Host List by d3ward
+! Expires: 1 days
+! Description: Simple and small list with the most popular advertising, tracking, analytics and social advertising services
+! Homepage: https://github.com/d3ward/toolz
+! License: CC BY-NC-SA
+! Source: https://github.com/d3ward/toolz/blob/master/src/d3host.txt
+!
+! This list cover all the tests on https://d3ward.github.io/toolz/adblock
+! Type : Stable
+! Entries : 131
+! Updated On: 23/5/2024
+! Created by: d3ward
+!
+!============ Ads =============
+!
+! --- Amazon
+||adtago.s3.amazonaws.com^
+||analyticsengine.s3.amazonaws.com^
+||analytics.s3.amazonaws.com^
+||advice-ads.s3.amazonaws.com^
+! --- Google Ads
+||pagead2.googlesyndication.com^
+||adservice.google.com^
+||pagead2.googleadservices.com^
+||afs.googlesyndication.com^
+! --- Doubleclick.net
+||stats.g.doubleclick.net^
+||ad.doubleclick.net^
+||static.doubleclick.net^
+||m.doubleclick.net^
+||mediavisor.doubleclick.net^
+! --- Adcolony
+||ads30.adcolony.com^
+||adc3-launch.adcolony.com^
+||events3alt.adcolony.com^
+||wd.adcolony.com^
+! --- Media.net
+||static.media.net^
+||media.net^
+||adservetx.media.net^
+!========= Analytics ==========
+!
+! --- Google Analytics
+||analytics.google.com^
+||click.googleanalytics.com^
+||google-analytics.com^
+||ssl.google-analytics.com^
+! --- Hotjar
+||adm.hotjar.com^
+||identify.hotjar.com^
+||insights.hotjar.com^
+||script.hotjar.com^
+||surveys.hotjar.com^
+||careers.hotjar.com^
+||events.hotjar.io^
+! --- MouseFlow
+||mouseflow.com^
+||cdn.mouseflow.com^
+||o2.mouseflow.com^
+||gtm.mouseflow.com^
+||api.mouseflow.com^
+||tools.mouseflow.com^
+||cdn-test.mouseflow.com^
+! --- FreshWorks
+||freshmarketer.com^
+||claritybt.freshmarketer.com^
+||fwtracks.freshmarketer.com^
+! --- Luckyorange
+||luckyorange.com^
+||api.luckyorange.com^
+||realtime.luckyorange.com^
+||cdn.luckyorange.com^
+||w1.luckyorange.com^
+||upload.luckyorange.net^
+||cs.luckyorange.net^
+||settings.luckyorange.net^
+! --- Stats WP Plugin
+||stats.wp.com^
+!======= Error Trackers =======
+!
+! --- Bugsnag
+||notify.bugsnag.com^
+||sessions.bugsnag.com^
+||api.bugsnag.com^
+||app.bugsnag.com^
+! --- Sentry
+||browser.sentry-cdn.com^
+||app.getsentry.com^
+!====== Social Trackers =======
+!
+! --- Facebook
+||pixel.facebook.com^
+||an.facebook.com^
+! --- Twitter
+||static.ads-twitter.com^
+||ads-api.twitter.com^
+! --- LinkedIn
+||ads.linkedin.com^
+||analytics.pointdrive.linkedin.com^
+! --- Pinterest
+||ads.pinterest.com^
+||log.pinterest.com^
+||analytics.pinterest.com^
+||trk.pinterest.com^
+! --- Reddit
+||events.reddit.com^
+||events.redditmedia.com^
+! --- YouTube
+||ads.youtube.com^
+! --- TikTok
+||ads-api.tiktok.com^
+||analytics.tiktok.com^
+||ads-sg.tiktok.com^
+||analytics-sg.tiktok.com^
+||business-api.tiktok.com^
+||ads.tiktok.com^
+||log.byteoversea.com^
+!============ Mix =============
+!
+! --- Yahoo
+||ads.yahoo.com^
+||analytics.yahoo.com^
+||geo.yahoo.com^
+||udc.yahoo.com^
+||udcm.yahoo.com^
+||analytics.query.yahoo.com^
+||partnerads.ysm.yahoo.com^
+||log.fc.yahoo.com^
+||gemini.yahoo.com^
+||adtech.yahooinc.com^
+! --- Yandex
+||extmaps-api.yandex.net^
+||appmetrica.yandex.ru^
+||adfstat.yandex.ru^
+||metrika.yandex.ru^
+||offerwall.yandex.net^
+||adfox.yandex.ru^
+! --- Unity
+||auction.unityads.unity3d.com^
+||webview.unityads.unity3d.com^
+||config.unityads.unity3d.com^
+||adserver.unityads.unity3d.com^
+!============ OEMs ============
+!
+! --- Realme
+||iot-eu-logser.realme.com^
+||iot-logser.realme.com^
+||bdapi-ads.realmemobile.com^
+||bdapi-in-ads.realmemobile.com^
+! --- Xiaomi
+||api.ad.xiaomi.com^
+||data.mistat.xiaomi.com^
+||data.mistat.india.xiaomi.com^
+||data.mistat.rus.xiaomi.com^
+||sdkconfig.ad.xiaomi.com^
+||sdkconfig.ad.intl.xiaomi.com^
+||tracking.rus.miui.com^
+! --- Oppo
+||adsfs.oppomobile.com^
+||adx.ads.oppomobile.com^
+||ck.ads.oppomobile.com^
+||data.ads.oppomobile.com^
+! --- Huawei
+||metrics.data.hicloud.com^
+||metrics2.data.hicloud.com^
+||grs.hicloud.com^
+||logservice.hicloud.com^
+||logservice1.hicloud.com^
+||logbak.hicloud.com^
+! --- OnePlus
+||click.oneplus.cn^
+||open.oneplus.net^
+! --- Samsung
+||samsungads.com^
+||smetrics.samsung.com^
+||nmetrics.samsung.com^
+||samsung-com.112.2o7.net^
+||analytics-api.samsunghealthcn.com^
+! --- Apple
+||iadsdk.apple.com^
+||metrics.icloud.com^
+||metrics.mzstatic.com^
+||api-adservices.apple.com^
+||books-analytics-events.apple.com^
+||weather-analytics-events.apple.com^
+||notes-analytics-events.apple.com^
+! ========== [КІНЕЦЬ: d3Host List by d3ward] ==========
